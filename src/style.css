@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+html {
+    -webkit-app-region: drag;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="text"],
+button,
+p,
+span,
+textarea {
+    -webkit-app-region: no-drag;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+
+}
+body {
+    color: #F7FFF7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+}
+
+#controls {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100vw;
+}
+
+#code {
+    width: 40%;
+}
+
+#add {
+    min-width: 87px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#title {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    user-select: none;
+    color: #F7FFF7;
+    position: fixed;
+    margin: 0 0;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#topbar {
+    height: 23px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #292F36;
+
+}
+
+#content {
+    overflow: scroll;
+    height: 100vh;
+    position: fixed;
+    top: 23px;
+    left: 0;
+    width: 100vw;
+    background-color: #292F36;
+
+}
+
+.remove {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: inherit;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.swatch {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.color-code {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+
+}

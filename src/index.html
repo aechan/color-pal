@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>🎨 Color Pal</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="topbar"></div>
+    <p id="title">Color Pal 🎨</p>
+    <div id="content">
+      <div>
+        <span>Your Palette</span>
+      </div>
+      <div id="palette">
+      </div>
+      <div id="controls">
+        <input type="text" placeholder="#FFFFFF" id="code" style="display: inline-block"> 
+        <button id="add">Add to Palette</button>
+      </div>
+    </div>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script src="./vendor/jquery.min.js"></script>
+    <script src="./palette.js"></script>
+    <script>if (window.module) module = window.module;</script>
+
+  </body>
+</html>
